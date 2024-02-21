@@ -1,0 +1,70 @@
+# Arquivos de configuração e segurança
+.env
+config.py
+
+# Diretórios de ambiente virtual do Python
+venv/
+env/
+ENV/
+
+# Arquivos de cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pacotes
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+bin/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Instalações do Jupyter Notebook
+.ipynb_checkpoints
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Ferramentas de teste
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Ferramentas de CI/CD
+.circleci
+.travis.yml
+.gitlab-ci.yml
+
+# Arquivos de IDE e editores
+.idea/
+.vscode/
+*.swp
+*.bak
+*.tmp
+*~
+.DS_Store
+
+# Bancos de dados locais
+*.sqlite
+*.db
+
+# Outros arquivos e diretórios
+temp/
+tmp/
+logs/
+*.log
